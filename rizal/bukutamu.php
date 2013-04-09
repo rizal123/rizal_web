@@ -3,7 +3,7 @@ include"koneksi.php";
 
 $tampil="SELECT*FROM bukutamu ORDER BY id DESC";
 $hasil=mysql_query($tampil);
-echo"<center>BUKU TAMU
+echo"<center>BUKU TAMU rizal
 <TABLE BORDER=1 width=800>
 <tr>
 	<th width=200>Nama</th>
